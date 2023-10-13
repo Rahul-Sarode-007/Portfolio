@@ -1,8 +1,11 @@
+html {
+    font-size: 10px;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    ;
 }
 
 .hero-section {
@@ -13,24 +16,26 @@ body {
 
 .nav-bar {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 2rem;
+
 }
 
 .site-logo {
-    width: 150px;
+    width: 15rem;
 }
 
 .logo {
-    width: 80px;
-    margin-left: 35px;
+    width: 8rem;
+    margin-left: 3.5rem;
 }
 
 
 .nav-links {
     display: flex;
-    gap: 50px;
+    gap: 5rem;
+    flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -40,7 +45,7 @@ body {
 
 .nav-links li {
     list-style: none;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #565194;
 }
 
@@ -56,21 +61,20 @@ body {
 
 .title h1 {
     color: #7d70b7;
-    margin-top: 100px;
-    margin-left: 170px;
-    font-size: 62px;
-    margin-bottom: 0px;
+    margin-top: 10rem;
+    margin-left: 17rem;
+    font-size: 6.2rem;
     font-family: 'Poppins', sans-serif;
 
 
-    
+
 }
 
 .subtitle h2 {
 
-    color: #565194;    
-    margin-left: 170px;
-    font-size: 32px;
+    color: #565194;
+    margin-left: 17rem;
+    font-size: 3.2rem;
     font-family: 'Poppins', sans-serif;
 
 
@@ -81,9 +85,9 @@ body {
 
 .about-me {
     background-color: #7d70b7;
-    background: #c0b2f8 ;
+    background: #c0b2f8;
 
-    padding: 30px 170px;
+    padding: 3rem 17rem;
 }
 
 .about-me h2 {
@@ -91,148 +95,233 @@ body {
     color: #3c3697;
 
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
     margin-bottom: 0;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 
 .profile-pic {
     display: block;
-    width: 150px;
+    width: 15rem;
     border-radius: 50%;
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 
 .about-me p {
     color: white;
     color: #3c3697;
 
-    font-size: 18px;
-    padding-bottom: 40px;
+    font-size: 1.8rem;
+    padding-bottom: 4rem;
 }
 
 
 /* *********************Section 3********************* */
 
-.experience{
-    background: #9385d4 ;
-    background-color: #a699dd ;
-    background: #b5a8e7 ;
+.experience {
+    background: #9385d4;
+    background-color: #a699dd;
+    background: #b5a8e7;
 
 
-    padding: 30px 170px;
+    padding: 3rem 17rem;
 }
 
-.experience h2{
+.experience h2 {
     margin-top: 0;
     /* color: #5bc3d3; */
     color: #3c3697;
 
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
-.experience-positions{
+.experience-positions {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-rows: repeat(4, auto);
-    gap: 20px;
-    
+    gap: 2rem;
+
 }
 
-.experience-positions > *{
+.experience-positions>* {
     color: white;
     color: #3c3697;
 
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 
 /* *********************Section 4********************* */
-.my-projects{
+.my-projects {
     background-color: #9b8ed6;
-    background: #c0b2f8 ;
-    
+    background: #c0b2f8;
 
-    padding: 30px 170px;
+
+    padding: 3rem 17rem;
 }
 
-.my-projects h2{
+.my-projects h2 {
     color: #3c3697;
 
     text-align: center;
-    font-size: 30px; 
-    padding-bottom: 30px;  
+    font-size: 3rem;
+    padding-bottom: 3rem;
 }
 
-.projects-pic-and-description{
+.projects-pic-and-description {
     display: flex;
     justify-content: space-between;
 }
 
-.projects-pic-and-description img{
-    width: 250px;
-    padding-bottom: 30px;
+.projects-pic-and-description img {
+    width: 25rem;
+    padding-bottom: 3rem;
 }
 
-.my-projects p{
+.my-projects p {
     color: white;
     color: #3c3697;
 
-    font-size: 18px;
-    padding-bottom: 30px;
+    font-size: 1.8rem;
+    padding-bottom: 3rem;
 }
 
 
 /* *********************Section 5********************* */
 
-#footer{
-    background-color: #b4a3f5 ;
-    padding: 30px 170px;
+#footer {
+    background-color: #b4a3f5;
+    padding: 3rem 17rem;
 }
 
-.my-footer > h2{
+.my-footer>h2 {
     color: #3c3697;
 
-    text-align: center;  
-    font-size: 30px;
-    padding-bottom: 5px;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
 
 }
 
-.social-links{
+.social-links {
     display: flex;
-    font-size: 32px;
+    font-size: 3.2rem;
     justify-content: center;
-    gap: 50px;
-    padding-bottom: 30px;
+    gap: 5rem;
+    padding-bottom: 3rem;
 }
 
-.social-links > a{
+.social-links>a {
     color: #3c3697;
 
 }
 
-.footer-links{
+.footer-links {
     display: flex;
-    gap: 30px;
+    gap: 3rem;
     justify-content: center;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
 }
 
-.footer-links > a{
+.footer-links>a {
     text-decoration: none;
     color: #3c3697;
 
 }
 
-.footer-links > a > li{
+.footer-links>a>li {
     list-style-type: none;
+    font-size: 1.6rem;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     color: #3c3697;
+    font-size: 1.6rem;
+}
+
+
+/* ******************Media Qeury********************* */
+/* ******************Media Qeury********************* */
+/* ******************Media Qeury********************* */
+
+
+
+@media (max-width:768px) {
+
+    html {
+        font-size: 7px;
+
+    }
+    /* ********************Section 1************************ */
+
+    .nav-bar {
+        gap: 5rem;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+    }
+
+    .header {
+        grid-template-columns: 1fr;
+    }
+
+    .Header1-image {
+        display: block;
+        margin: auto;
+    }
+
+
+    .title h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .subtitle h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    /* ************************************** */
+    /* Section 2 */
+
+    .about-me {
+        padding: 3rem 8rem;
+    }
+
+
+    /* *********************Section 3********************* */
+
+    .experience {
+        padding: 3rem 8rem;
+    }
+
+    .experience-positions {
+        grid-template-columns: 40% 60%;
+    }
+
+    /* *********************Section 4********************* */
+    .my-projects {
+        padding: 3rem 8rem;
+    }
+
+
+
+    .projects-pic-and-description {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
+    /* *********************Section 5********************* */
+
+    #footer {
+        padding: 3rem 8rem;
+    }
 
 }
