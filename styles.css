@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(to bottom, #ececfc, #565194);
+    height: 100vh;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.site-logo {
+    width: 150px;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 35px;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+
+.nav-links li {
+    list-style: none;
+    font-size: 24px;
+    color: #565194;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Header1-image {
+    width: 80%
+}
+
+
+.title h1 {
+    color: #7d70b7;
+    margin-top: 100px;
+    margin-left: 170px;
+    font-size: 62px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+
+
+    
+}
+
+.subtitle h2 {
+
+    color: #565194;    
+    margin-left: 170px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+/* ************************************** */
+/* Section 2 */
+
+.about-me {
+    background-color: #7d70b7;
+    background: #c0b2f8 ;
+
+    padding: 30px 170px;
+}
+
+.about-me h2 {
+    /* color: #5bc3d3; */
+    color: #3c3697;
+
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.profile-pic {
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.about-me p {
+    color: white;
+    color: #3c3697;
+
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+
+/* *********************Section 3********************* */
+
+.experience{
+    background: #9385d4 ;
+    background-color: #a699dd ;
+    background: #b5a8e7 ;
+
+
+    padding: 30px 170px;
+}
+
+.experience h2{
+    margin-top: 0;
+    /* color: #5bc3d3; */
+    color: #3c3697;
+
+    text-align: center;
+    font-size: 30px;
+}
+
+.experience-positions{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+    
+}
+
+.experience-positions > *{
+    color: white;
+    color: #3c3697;
+
+    font-size: 18px;
+}
+
+
+/* *********************Section 4********************* */
+.my-projects{
+    background-color: #9b8ed6;
+    background: #c0b2f8 ;
+    
+
+    padding: 30px 170px;
+}
+
+.my-projects h2{
+    color: #3c3697;
+
+    text-align: center;
+    font-size: 30px; 
+    padding-bottom: 30px;  
+}
+
+.projects-pic-and-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-pic-and-description img{
+    width: 250px;
+    padding-bottom: 30px;
+}
+
+.my-projects p{
+    color: white;
+    color: #3c3697;
+
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+
+/* *********************Section 5********************* */
+
+#footer{
+    background-color: #b4a3f5 ;
+    padding: 30px 170px;
+}
+
+.my-footer > h2{
+    color: #3c3697;
+
+    text-align: center;  
+    font-size: 30px;
+    padding-bottom: 5px;
+
+}
+
+.social-links{
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+.social-links > a{
+    color: #3c3697;
+
+}
+
+.footer-links{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.footer-links > a{
+    text-decoration: none;
+    color: #3c3697;
+
+}
+
+.footer-links > a > li{
+    list-style-type: none;
+}
+
+.copyright{
+    text-align: center;
+    color: #3c3697;
+
+}
